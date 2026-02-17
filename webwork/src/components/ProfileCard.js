@@ -8,8 +8,8 @@ const ProfileCard = () => {
       }}></div>
       
       <div style={{ padding: '0 24px 24px' }}>
-        <div style={{ marginTop: '-70px', marginBottom: '16px' }}>
-          <img src='https://media.tenor.com/qTLXf8tqtKMAAAAe/arab-fanum-mewing.png' alt="Profile" style={{ width: '180px', height: '240px', borderRadius: '5%', border: '4px solid white' }} />
+        <div style={{ marginTop: '-70px', marginBottom: '16px', display: 'flex', justifyContent: 'center' }}>
+          <img src='/img/fanum.png' alt="Profile" style={{ width: '280px', height: '340px', borderRadius: '5%', border: '4px solid white' }} />
         </div>
         
         <div className="profile-header">
@@ -18,7 +18,7 @@ const ProfileCard = () => {
           <p><strong>Programming Skills :</strong> Python, Java, C/C++.</p>
           <p><strong>Web applications development :</strong> HTML, CSS, JavaScript, React, Node.js.</p>
           <p><strong>Hardware & IoT :</strong> Arduino, Raspberry Pi, ESP32.</p>
-          <p><strong>Tools & Version Control :</strong> Git, VS Code, GitHub.</p>
+          <p><strong>Tools & Version Control :</strong>VS Code, Git, GitHub.</p>
         </div>
       </div>
     </div>

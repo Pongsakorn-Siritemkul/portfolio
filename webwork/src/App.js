@@ -4,7 +4,7 @@ import './App.css';
 
 import Header from './components/Header';
 import ProfilePage from './pages/ProfilePage'; 
-import ProjectsPage from './pages/DetailsPage'; 
+import DetailsPage from './pages/DetailsPage';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="/" element={<ProfilePage />} />
-              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/projects" element={<DetailsPage />} />
             </Routes>
           </div>
         </main>
