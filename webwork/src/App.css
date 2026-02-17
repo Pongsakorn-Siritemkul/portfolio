@@ -15,9 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* =========================================
-   2. MAIN LAYOUT & CONTAINER
-   ========================================= */
 .app-body {
   margin-top: 80px; /* Space for fixed header */
   display: flex;

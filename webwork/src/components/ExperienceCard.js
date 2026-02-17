@@ -4,21 +4,14 @@ const ExperienceSection = () => {
     {
       title: "Hackathon Participant",
       company: "Tokio Marine Insurance",
-      date: "Feb 2026",
+      date: "2025",
       desc: "Developed a member point redemption web app using PHP, MySQL, and JavaScript.",
       icon: "🏆"
     },
-    {
-      title: "Researcher (Bachelor Thesis)",
-      company: "Renewable Energy Project",
-      date: "2025 - 2026",
-      desc: "Designed and coded a Solar Charge Controller using Genetic Algorithms (GA MPPT).",
-      icon: "☀️"
-    }
   ];
 
   return (
-    <div className="card" style={{ padding: '24px' }}>
+    <div className="card" style={{ padding: '24px' , marginBottom: '24px' }}>
       <h2 style={{ marginBottom: '20px' }}>Experience</h2>
       {experiences.map((exp, index) => (
         <div key={index} style={{ display: 'flex', gap: '16px', marginBottom: '24px' }}>

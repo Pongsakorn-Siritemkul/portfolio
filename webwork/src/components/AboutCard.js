@@ -6,13 +6,12 @@ const AboutCard = () => {
       <h2 style={{ fontSize: '20px', margin: '0 0 16px 0' }}>About</h2>
       
       <p style={{ lineHeight: '1.6', color: 'var(--text-main)', marginBottom: '16px' }}>
-        I am a Computer Engineering student passionate about <strong>Artificial Intelligence</strong>, <strong>Image Processing</strong>, and <strong>Full Stack Development</strong>. 
-        My academic focus involves integrating hardware with intelligent software, specifically using Genetic Algorithms (GA) for MPPT Solar Charge Controllers.
+        I am a student in <strong>Bachelor of Industrial Technology</strong> in <strong>Electronic Technology</strong> at <strong>King Mongkut's University of Technology North Bangkok.</strong> 
+        My academic focus is on computer engineering, and I have a strong passion for programming and technology.
       </p>
-
       <p style={{ lineHeight: '1.6', color: 'var(--text-main)' }}>
-        Recently, I participated in the <strong>Tokio Marine Hackathon</strong>, where I developed a web-based point redemption system under tight deadlines. 
-        I am currently looking for opportunities to apply my skills in Python (OpenCV), React, and IoT solutions to solve real-world problems.
+        I have experience in various programming languages, including <strong>Python, Java, C++, and JavaScript.</strong><br></br>
+        I enjoy working on projects that allow me to apply my skills and learn new technologies.
       </p>
     </div>
   );

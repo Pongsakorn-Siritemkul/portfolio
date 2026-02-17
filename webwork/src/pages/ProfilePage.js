@@ -1,13 +1,15 @@
 import React from 'react';
 import ProfileCard from '../components/ProfileCard';
-import AboutCard from '../components/AboutCard'; // <--- Import this
-import ExperienceSection from '../components/ExperienceSection';
+import AboutCard from '../components/AboutCard';
+import EducationCard from '../components/EducationCard';
+import ExperienceSection from '../components/ExperienceCard';
 
 const ProfilePage = () => {
   return (
     <>
       <ProfileCard />
-      <AboutCard /> {/* <--- Add this here */}
+      <AboutCard />
+      <EducationCard />
       <ExperienceSection />
     </>
   );

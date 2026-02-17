@@ -9,16 +9,15 @@ const ProfileCard = () => {
       
       <div style={{ padding: '0 24px 24px' }}>
         <div style={{ marginTop: '-70px', marginBottom: '16px' }}>
-          <img 
-            className="profile-pic" 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" 
-            alt="Profile" 
-          />
+          <img src='https://media.tenor.com/qTLXf8tqtKMAAAAe/arab-fanum-mewing.png' alt="Profile" style={{ width: '180px', height: '240px', borderRadius: '5%', border: '4px solid white' }} />
         </div>
         
         <div className="profile-header">
-          <h1 style={{ fontSize: '28px', fontWeight: '700', margin: '0' }}>Your Name</h1>
-          <p style={{ color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Computer Engineering Student</p>
+          <h1 style={{ fontSize: '28px', fontWeight: '700', margin: '0' }}>Pongsakorn Siritemkul</h1>
+          <p style={{ color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Electronic Technology Student</p>
+          <p><strong>Programming Skills:</strong> Python, Java, C/C++.</p>
+          <p><strong>Web applications development:</strong> HTML, CSS, JavaScript, React, Node.js.</p>
+          <p><strong>Hardware & IoT:</strong> Arduino, Raspberry Pi, ESP32.</p>
         </div>
       </div>
     </div>

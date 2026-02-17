@@ -6,16 +6,14 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="header-left">
-          <NavLink to="/" className="modern-logo">Portfolio</NavLink>
+          <h1 className="header-title">Portfolio</h1>
         </div>
-
         <nav className="header-nav">
           <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
             <span className="material-icon">HOME</span>
           </NavLink>
-
           <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
-            <span className="material-icon">PROJECT</span>
+            <span className="material-icon">DETAILS</span>
           </NavLink>
         </nav>
       </div>
