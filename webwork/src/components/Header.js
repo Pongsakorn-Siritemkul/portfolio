@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="header-left">
-          <h1 className="header-title">Portfolio</h1>
+          <h1 className="header-title">MY&nbsp;PORTFOLIO</h1>
         </div>
         <nav className="header-nav">
           <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>

@@ -18,6 +18,7 @@ const ProfileCard = () => {
           <p><strong>Programming Skills :</strong> Python, Java, C/C++.</p>
           <p><strong>Web applications development :</strong> HTML, CSS, JavaScript, React, Node.js.</p>
           <p><strong>Hardware & IoT :</strong> Arduino, Raspberry Pi, ESP32.</p>
+          <p><strong>Tools & Version Control :</strong> Git, VS Code, GitHub.</p>
         </div>
       </div>
     </div>

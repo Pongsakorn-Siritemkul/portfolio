@@ -5,30 +5,21 @@ const ProjectsPage = () => {
     {
       id: 1,
       title: "GA MPPT Solar Charge Controller",
-      category: "Hardware & AI",
-      image: "https://via.placeholder.com/400x200", // Replace with your thesis hardware photo
+      category: "Hardware & AI Project",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7SDkhC7SU_UyFUH0JnF2fsPxXuDsaw80S-w&s", // Replace with your thesis hardware photo
       description: "Bachelor Thesis: Implementing Genetic Algorithms to optimize solar energy harvesting efficiency.",
       tags: ["Python", "GA", "MPPT", "Electronics"],
       link: "#"
     },
     {
       id: 2,
-      title: "Tokio Marine Hackathon App",
+      title: "Tokio Marine Hackathon Project",
       category: "Web Development",
-      image: "https://via.placeholder.com/400x200", 
-      description: "Developed a member point redemption system within a high-pressure 48-hour competition.",
+      image: "", // Replace with a relevant project image
+      description: "Developed a member point redemption system within a high-pressure 8-hour competition.",
       tags: ["PHP", "MySQL", "JavaScript", "CSS"],
-      link: "#"
+      link: "https://www.linkedin.com/posts/tokio-marine-life-thailand_smartperson-smartworlplace-growtogether-activity-7368549924138905601-hjjg"
     },
-    {
-      id: 3,
-      title: "Image Processing Suite",
-      category: "Computer Vision",
-      image: "https://via.placeholder.com/400x200",
-      description: "Automated corner detection and RGB channel splitting using OpenCV on Google Colab.",
-      tags: ["OpenCV", "Python", "Colab"],
-      link: "#"
-    }
   ];
 
   return (
