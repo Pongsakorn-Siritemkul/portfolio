@@ -14,10 +14,10 @@ const ProfileCard = () => {
         
         <div className="profile-header">
           <h1 style={{ fontSize: '28px', fontWeight: '700', margin: '0' }}>Pongsakorn Siritemkul</h1>
-          <p style={{ color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Electronic Technology Student</p>
-          <p><strong>Programming Skills:</strong> Python, Java, C/C++.</p>
-          <p><strong>Web applications development:</strong> HTML, CSS, JavaScript, React, Node.js.</p>
-          <p><strong>Hardware & IoT:</strong> Arduino, Raspberry Pi, ESP32.</p>
+          <p style={{ color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Name in Thai : พงศกร ศิริเต็มกุล</p>
+          <p><strong>Programming Skills :</strong> Python, Java, C/C++.</p>
+          <p><strong>Web applications development :</strong> HTML, CSS, JavaScript, React, Node.js.</p>
+          <p><strong>Hardware & IoT :</strong> Arduino, Raspberry Pi, ESP32.</p>
         </div>
       </div>
     </div>
