@@ -4,31 +4,15 @@ const EducationCard = () => {
   return (
     <div>
         <div className="card" style={{ padding: '24px' }}>
-        <h2 style={{ fontSize: '20px', margin: '0 0 16px 0' }}>Education</h2>
+        <h2 style={{ fontSize: '20px', margin: '0 0 16px 0' }}>EDUCATION</h2>
             <div style={{ display: 'flex', gap: '24px' , marginBottom: '24px' }}>
-                <div style={{
-                    fontSize: '24px',
-                    background: '#f1f5f9',
-                    padding: '12px',
-                    borderRadius: '12px',
-                    height: 'fit-content'           
-                }}>🎓
-                </div> 
                 <h3 style={{ margin: 0, fontSize: '18px' }}>Loei Technical College</h3>
                 <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '15px' }}>Diploma in Computer Technology</p>
                 <h3 style={{ margin: 0, fontSize: '18px' }}>GPAX 3.88</h3>
                 <p style={{ margin: 0, color: '#94a3b8' }}>2019 - 2021</p>
             </div>
             <div style={{ display: 'flex', gap: '24px' }}>
-                <div style={{
-                    fontSize: '24px',
-                    background: '#f1f5f9',
-                    padding: '12px',
-                    borderRadius: '12px',
-                    height: 'fit-content'           
-                }}>🎓
-                </div> 
-                <h3 style={{ margin: 0, fontSize: '13px' }}>King Mongkut's University <br></br>of Technology North Bangkok</h3>
+                <h3 style={{ margin: 0, fontSize: '13px' }}>King Mongkut's University of <br></br>Technology North Bangkok</h3>
                 <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '15px' }}>Bachelor of Industrial Technology</p>
                 <h3 style={{ margin: 0, fontSize: '18px' }}>GPAX 3.31</h3>
                 <p style={{ margin: 0, color: '#94a3b8' }}>2022 - present</p>

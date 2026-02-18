@@ -4,7 +4,9 @@ const ProfileCard = () => {
     <div className="card">
       <div className="cover-gradient" style={{ 
         height: '180px', 
-        background: 'linear-gradient(90deg, #0a66c2 0%, #5c9ce6 100%)' 
+        backgroundImage: 'url(https://i.stack.imgur.com/SvWWN.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}></div>
       
       <div style={{ padding: '0 24px 24px' }}>
@@ -13,12 +15,12 @@ const ProfileCard = () => {
         </div>
         
         <div className="profile-header">
-          <h1 style={{ fontSize: '28px', fontWeight: '700', margin: '0' }}>Pongsakorn Siritemkul</h1>
-          <p style={{ color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Name in Thai : พงศกร ศิริเต็มกุล</p>
-          <p><strong>Programming Skills :</strong> Python, Java, C/C++.</p>
-          <p><strong>Web applications development :</strong> HTML, CSS, JavaScript, React, Node.js.</p>
-          <p><strong>Hardware & IoT :</strong> Arduino, Raspberry Pi, ESP32.</p>
-          <p><strong>Tools & Version Control :</strong>VS Code, Git, GitHub.</p>
+          <h1 style={{ fontSize: '28px', fontWeight: '700', margin: '0' }}>PONGSAKORN SIRITEMKUL</h1>
+          <p className='profile-name-thai'>พงศกร ศิริเต็มกุล</p>
+          <p><strong>Programming Skills:</strong> Python, Java, C/C++.</p>
+          <p><strong>Web applications development:</strong> HTML, CSS, JavaScript, Node.js, React.</p>
+          <p><strong>Hardware & IoT:</strong> Arduino, Raspberry Pi, ESP32.</p>
+          <p><strong>Tools & Version Control: </strong>VS Code, Git, GitHub.</p>
         </div>
       </div>
     </div>
