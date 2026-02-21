@@ -4,13 +4,15 @@ import AboutCard from '../components/AboutCard';
 import EducationCard from '../components/EducationCard';
 import ExperienceSection from '../components/ExperienceCard';
 import ContactCard from '../components/ContactCard';
+import SkillCard from '../components/Skillcard';
 
 const ProfilePage = () => {
   return (
     <>
       <ProfileCard />
-      <ContactCard />
       <AboutCard />
+      <SkillCard />
+      <ContactCard />
       <EducationCard />
       <ExperienceSection />
     </>

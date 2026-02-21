@@ -13,7 +13,7 @@ const Header = () => {
             <span className="material-icon">HOME</span>
           </NavLink>
           <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
-            <span className="material-icon">DETAILS</span>
+            <span className="material-icon">DOCUMENTS</span>
           </NavLink>
         </nav>
       </div>

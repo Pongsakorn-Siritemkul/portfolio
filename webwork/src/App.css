@@ -36,9 +36,7 @@ body {
 /* Base Card Style */
 .card {
   background: var(--card-bg);
-  opacity: 0.75;
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  opacity: 0.85;
   border-radius: 12px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.05);
   overflow: hidden;
@@ -372,4 +370,90 @@ body {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+/* Update this class in your App.css */
+/* =========================================
+   SKILL GRID STYLES (App Icon Layout)
+   ========================================= */
+
+/* The Grid Container */
+.skill-grid {
+  display: grid;
+  /* Auto-fill creates as many columns as will fit. 
+     minmax(90px, 1fr) means each box will be at least 90px wide */
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+/* Individual Skill Box */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 8px;
+  background-color: #20150d;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+/* Hover Effect for the Boxes */
+.skill-item:hover {
+  transform: translateY(-4px);
+  background-color: var(--text-muted);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  border-color: #cbd5e1;
+}
+
+/* Force the React Icons (SVGs) to be large */
+.skill-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.skill-item-icon svg {
+  width: 60px; /* Makes the logo nice and big */
+  height: 60px;
+  transition: transform 0.2s ease;
+}
+
+/* Optional: Slight logo bounce on hover */
+.skill-item:hover .skill-item-icon svg {
+  transform: scale(1.1);
+}
+
+/* The text under the icon */
+.skill-item-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-main);
+  text-align: center;
+}
+
+/* aligns the category icon and title on the same row */
+.skill-header {
+  display: flex;
+  align-items: center; /* Vertically centers the icon with the text */
+  gap: 10px; /* Adds space between the icon and the words */
+  margin-bottom: 16px; /* Space below the title before the grid starts */
+}
+
+/* Ensure the wrapper doesn't do anything weird */
+.skill-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove default heading margins that break alignment */
+.skill-category-title {
+  margin: 0 !important; /* Forces the text to stay inline */
+  font-size: 18px;
+  font-weight: bold;
 }
