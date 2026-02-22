@@ -8,11 +8,39 @@ const ExperienceSection = () => {
       desc: "Developed a member point redemption web app using PHP, MySQL, and JavaScript.",
       icon: "🏆"
     },
+    {
+      title: "Internship",
+      company: "Loei Technical College",
+      date: "2022",
+      desc: "IT support intern, assisting with hardware and software troubleshooting, network maintenance, and user support.",
+      icon: "💼"
+    },
+    {
+      title: "1st : Network System Mangagement",
+      company: "Office of the Vocational Education Commission (OVEC)",
+      date: "2022",
+      desc: "Secured 1st place at the 34rd AFT Regional Conference (Northeastern). Demonstrated expertise in network design, configuration, and troubleshooting.",
+      icon: "🥇"
+    },
+    {
+      title: "2nd : Computer Assembly & Software Installation",
+      company: "Office of the Vocational Education Commission (OVEC)",
+      date: "2019",
+      desc: "Secured 2nd place at the 29th AFT Regional Conference (Northeastern). Demonstrated expertise in hardware assembly and system configuration.",
+      icon: "🥈"
+    },
+    {
+      title: "Bronze Medal: Multimedia Technology",
+      company: "Office of the Vocational Education Commission (OVEC)",
+      date: "2020",
+      desc: "Awarded at the 31st Association of Future Thai Professionals (AFT) Regional Conference (Northeastern). Recognized for creativity and technical skills in multimedia content creation.",
+      icon: "🥉"
+    },
   ];
 
   return (
-    <div className="card" style={{ padding: '24px' , marginBottom: '24px' }}>
-      <h2 style={{ marginBottom: '20px' }}>Experience</h2>
+    <div className="card" style={{ padding: '48px' , marginBottom: '24px' }}>
+      <h2 style={{ marginBottom: '36px' }}>Experience</h2>
       {experiences.map((exp, index) => (
         <div key={index} style={{ display: 'flex', gap: '16px', marginBottom: '24px' }}>
           <div style={{ 

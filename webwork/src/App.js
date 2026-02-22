@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import ProfilePage from './pages/ProfilePage'; 
 import DetailsPage from './pages/DetailsPage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             </Routes>
           </div>
         </main>
+        <Footer />
       </div>
     </Router>
   );

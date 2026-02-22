@@ -27,7 +27,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: 1500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -41,6 +41,7 @@ body {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.05);
   overflow: hidden;
   transition: transform 0.2s ease;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -121,6 +122,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  font-family: 'Righteous', cursive;
   font-weight: bold;
   gap: 8px;
 }
@@ -140,7 +142,7 @@ body {
 }
 
 .nav-link:hover {
-  background: #ff5100;
+  background: #5f5f5f;
   color: var(--text-main);
 }
 
@@ -456,4 +458,81 @@ body {
   margin: 0 !important; /* Forces the text to stay inline */
   font-size: 18px;
   font-weight: bold;
+}
+
+/* =========================================
+   FOOTER STYLES (Matched to Header)
+   ========================================= */
+.footer {
+  width: 100%;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--border-color); /* Top border instead of bottom */
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 20px 0;
+  margin-top: 60px;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 2560px; /* Matched to your header */
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Matching the 'Righteous' Header Logo Style */
+.footer-title {
+  font-family: 'Righteous', cursive;
+  background: var(--primary-color);
+  color: white;
+  height: auto;
+  min-height: 60px; /* Slightly taller to accommodate the 48px font */
+  padding: 0 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px; /* Matched to header */
+  margin: 0 0 32px 0;
+  line-height: 1;
+}
+
+/* Footer Links and Icons */
+.footer-links {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-main); /* Darker text for better contrast */
+  text-decoration: none;
+  font-size: 18px; /* Slightly larger to match the bold title */
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.footer-item:hover {
+  color: var(--primary-color);
+}
+
+.footer-icon {
+  font-size: 22px;
+}
+
+.footer-copyright {
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+  padding-top: 20px;
+  font-size: 14px;
+  color: var(--text-muted);
 }
