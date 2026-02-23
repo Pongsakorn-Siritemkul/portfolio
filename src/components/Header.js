@@ -35,7 +35,7 @@ const Header = () => {
           </HashLink>
 
           {/* NavLink is still perfect for the separate projects page */}
-          <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+          <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
             <span className="header-nav">MORES</span>
           </NavLink>
           
