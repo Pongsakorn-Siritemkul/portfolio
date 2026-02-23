@@ -5,7 +5,7 @@ const ProfileCard = () => {
     <div className="card">
       <div className="cover-gradient" style={{ 
         height: '300px', 
-        backgroundImage: 'url(/img/cover_img.png)',
+        backgroundImage: 'url("/img/cover_img.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}></div>
