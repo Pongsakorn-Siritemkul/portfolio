@@ -2,7 +2,6 @@ import React from 'react';
 import { FaPython, FaJava, FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaRaspberryPi, FaGitAlt, FaGithub, FaMicrochip } from 'react-icons/fa';
 import { SiCplusplus, SiJavascript, SiArduino } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
-import { MdComputer, MdWeb, MdMemory, MdBuild } from 'react-icons/md';
 
 const SkillCard = () => {
   const skillCategories = [
