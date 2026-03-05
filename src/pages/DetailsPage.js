@@ -33,7 +33,7 @@ const DetailsPage = () => {
       title: "Certificate",
       category: "Document",
       image: "/img/cer2.jpg",
-      description: "My academic certificate in diploma.",
+      description: "Secured 2nd place at the 29th AFT Regional Conference (Northeastern). Demonstrated expertise in hardware assembly and system configuration.",
       link: "#"
     },
     {
