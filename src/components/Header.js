@@ -13,7 +13,6 @@ const Header = () => {
         
         <nav className="header-nav">
           
-          {/* Replace <a> with <HashLink smooth> */}
           <HashLink smooth to="/#home" className="nav-link">
             <span className="header-nav">HOME</span>
           </HashLink>
@@ -34,8 +33,7 @@ const Header = () => {
             <span className="header-nav">EXPERIENCE</span>
           </HashLink>
 
-          {/* NavLink is still perfect for the separate projects page */}
-          <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+          <NavLink to="/Projects" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
             <span className="header-nav">MORES</span>
           </NavLink>
           
